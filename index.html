@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGETHERM | Peças & Ferramentas</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/logo.png">
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Estilos customizados -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Estilo para o vídeo nativo horizontal 16:9 sem cortes e sem interação */
+    .video-container {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #000;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .product-video {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; /* Mantém a proporção inteira sem cortar */
+      pointer-events: none; /* Bloqueia cliques no vídeo */
+    }
+  </style>
+</head>
+<body>
+
+  <main class="container">
+    
+    <!-- Cabeçalho / Perfil Corporativo -->
+    <header class="header">
+      <div class="logo-container">
+        <img src="logo.png" alt="Logo Agetherm" class="brand-logo">
+      </div>
+      <p class="slogan">Excelência, confiança e parcerias sólidas para o seu negócio.</p>
+    </header>
+
+    <!-- Lista de Links principais -->
+    <nav class="links-nav">
+      
+      <!-- Botão 1: Acessar Site -->
+      <a href="https://www.agetherm.com.br" class="link-card main-highlight" target="_blank" rel="noopener">
+        <div class="icon-wrapper orange-filled">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+        </div>
+        <span class="link-label">ACESSE NOSSO SITE</span>
+        <div class="dots-menu" aria-hidden="true"><span></span><span></span><span></span></div>
+      </a>
+
+      <!-- Botão 2: Atendimento -->
+      <a href="https://wa.me/5511999999999" class="link-card" target="_blank" rel="noopener">
+        <div class="icon-wrapper">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#FF8C00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+          </svg>
+        </div>
+        <span class="link-label">ATENDIMENTO | Fale conosco</span>
+        <div class="dots-menu" aria-hidden="true"><span></span><span></span><span></span></div>
+      </a>
+
+      <!-- Botão 3: YouTube -->
+      <a href="https://www.youtube.com/@agetherm" class="link-card" target="_blank" rel="noopener">
+        <div class="icon-wrapper">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#FF8C00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+            <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+          </svg>
+        </div>
+        <span class="link-label">ACESSE NOSSO CANAL NO YOUTUBE</span>
+        <div class="dots-menu" aria-hidden="true"><span></span><span></span><span></span></div>
+      </a>
+
+    </nav>
+
+    <!-- SEÇÃO: NOSSOS DESTAQUES -->
+    <div class="section-title">NOSSOS DESTAQUES</div>
+    
+    <div class="products-section">
+      
+      <!-- Produto 1 (Vídeo Próprio - Manifold A10) -->
+      <div class="product-card">
+        <div class="video-container">
+          <video class="product-video" autoplay muted loop playsinline>
+            <source src="A10-VIDEO.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+          </video>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">MANIFOLD DIGITAL INTELIGENTE A10</h3>
+          <p class="product-desc">Alta precisão em medições de pressão e temperatura para sistemas de refrigeração e climatização com visor digital inteligente.</p>
+        </div>
+      </div>
+
+      <!-- Produto 2 (Vídeo Próprio - Bomba de Vácuo) -->
+      <div class="product-card">
+        <div class="video-container">
+          <video class="product-video" autoplay muted loop playsinline>
+            <source src="VP-VIDEO.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+          </video>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">BOMBA DE VÁCUO DUPLO ESTÁGIO</h3>
+          <p class="product-desc">Alta performance em vácuo profundo com duplo estágio, válvula solenoide, gas ballast e sistema spark free seguro para fluidos inflamáveis (disponível em 7CFM e 13CFM).</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SEÇÃO: NOSSAS LINHAS E CATEGORIAS (2 COLUNAS) -->
+    <div class="section-title">NOSSAS LINHAS E CATEGORIAS</div>
+
+    <div class="catalog-accordion">
+      
+      <!-- 1. Linha: ULTRA-PRO -->
+      <details class="linha-item">
+        <summary class="linha-summary">ULTRA-PRO</summary>
+        <div class="categoria-list">
+          <div class="subgrupo-list">
+            <span class="subgrupo-tag">ALARGADOR DE TUBO</span>
+            <span class="subgrupo-tag">BOMBA DE VACUO</span>
+            <span class="subgrupo-tag">CORTADOR DE TUBO</span>
+            <span class="subgrupo-tag">CURVADOR DE TUBO</span>
+            <span class="subgrupo-tag">FLANGEADOR DE TUBO</span>
+            <span class="subgrupo-tag">MANGUEIRA ALTA PRESSÃO</span>
+            <span class="subgrupo-tag">MANGUEIRA VACUO</span>
+            <span class="subgrupo-tag">MANIFOLD</span>
+            <span class="subgrupo-tag">MANIFOLD DIGITAL</span>
+            <span class="subgrupo-tag">MAÇARICO</span>
+            <span class="subgrupo-tag">REGULADOR DE NITROGENIO</span>
+            <span class="subgrupo-tag">TERMÔMETRO DIGITAL</span>
+            <span class="subgrupo-tag">VÁLVULA OTIMIZADORA</span>
+          </div>
+        </div>
+      </details>
+
+      <!-- 2. Linha: REFRIGERAÇÃO COMERCIAL -->
+      <details class="linha-item">
+        <summary class="linha-summary">REFRIGERAÇÃO COMERCIAL</summary>
+        <div class="categoria-list">
+          <div class="subgrupo-list">
+            <span class="subgrupo-tag">ACUMULADOR DE SUCÇÃO</span>
+            <span class="subgrupo-tag">BOBINA VÁLVULA SOLENÓIDE</span>
+            <span class="subgrupo-tag">ELEMENTO FILTRANTE</span>
+            <span class="subgrupo-tag">FILTRO RECARREGÁVEL</span>
+            <span class="subgrupo-tag">FILTRO SECADOR DE FERRO</span>
+            <span class="subgrupo-tag">FLEXÍVEL ELIMINADOR VIBRAÇÃO</span>
+            <span class="subgrupo-tag">MANÔMETRO GLICERINA</span>
+            <span class="subgrupo-tag">MINI PRESSOSTATO</span>
+            <span class="subgrupo-tag">MOTOR EXAUSTOR</span>
+            <span class="subgrupo-tag">ORIFÍCIO VÁLVULA EXPANSÃO</span>
+            <span class="subgrupo-tag">PRESSOSTATO</span>
+            <span class="subgrupo-tag">SEPARADOR DE ÓLEO</span>
+            <span class="subgrupo-tag">VISOR DE LÍQUIDO</span>
+            <span class="subgrupo-tag">VÁLVULA DE EXPANSÃO</span>
+            <span class="subgrupo-tag">VÁLVULA ESFERA COM SCHRADER</span>
+            <span class="subgrupo-tag">VÁLVULA ROTALOCK</span>
+            <span class="subgrupo-tag">VÁLVULA SOLENÓIDE</span>
+            <span class="subgrupo-tag">VÁLVULA TANQUE</span>
+          </div>
+        </div>
+      </details>
+
+      <!-- 3. Linha: CLIMATIZAÇÃO -->
+      <details class="linha-item">
+        <summary class="linha-summary">CLIMATIZAÇÃO</summary>
+        <div class="categoria-list">
+          <div class="subgrupo-list">
+            <span class="subgrupo-tag">BOMBA DRENO</span>
+            <span class="subgrupo-tag">CAPACITOR VENTILADOR</span>
+            <span class="subgrupo-tag">CONTROLE REMOTO UNIVERSAL</span>
+            <span class="subgrupo-tag">KIT FLUSH</span>
+            <span class="subgrupo-tag">KIT PLACA ELETRÔNICA AR-COND</span>
+            <span class="subgrupo-tag">MOTOR CONDENSADORA</span>
+            <span class="subgrupo-tag">MOTOR EVAPORADORA</span>
+            <span class="subgrupo-tag">PORCA FORJADA SAE</span>
+            <span class="subgrupo-tag">TERMOSTATO AMBIENTE</span>
+            <span class="subgrupo-tag">TERMOSTATO AR-COND JANELA</span>
+            <span class="subgrupo-tag">TERMOSTATO AR-CONDICIONADO</span>
+            <span class="subgrupo-tag">TERMOSTATO AUTOMOTIVO</span>
+            <span class="subgrupo-tag">VÁLVULA DE SERVIÇO</span>
+          </div>
+        </div>
+      </details>
+
+      <!-- 4. Linha: REFRIGERAÇÃO -->
+      <details class="linha-item">
+        <summary class="linha-summary">REFRIGERAÇÃO</summary>
+        <div class="categoria-list">
+          <div class="subgrupo-list">
+            <span class="subgrupo-tag">CAPACITOR ARRANQUE</span>
+            <span class="subgrupo-tag">CAPACITOR DUPLO</span>
+            <span class="subgrupo-tag">CAPACITOR MULTIPLICADOR</span>
+            <span class="subgrupo-tag">CAPACITOR SIMPLES</span>
+            <span class="subgrupo-tag">FILTRO SECADOR MOLECULAR</span>
+            <span class="subgrupo-tag">FILTRO SECADOR SECO</span>
+            <span class="subgrupo-tag">MICRO MOTOR</span>
+            <span class="subgrupo-tag">MICRO MOTOR BARRA</span>
+            <span class="subgrupo-tag">MOTOR VENTILADOR</span>
+            <span class="subgrupo-tag">MOTOR VENTOINHA</span>
+            <span class="subgrupo-tag">PROTETOR TÉRMICO</span>
+            <span class="subgrupo-tag">RELE PARTIDA</span>
+            <span class="subgrupo-tag">TEMPORIZADOR REFRIGERACAO</span>
+            <span class="subgrupo-tag">TERMOSTATO BALCÃO FRIGORIFICO</span>
+            <span class="subgrupo-tag">TERMOSTATO BEBEDOURO</span>
+            <span class="subgrupo-tag">TERMOSTATO BIMETALICO</span>
+            <span class="subgrupo-tag">TERMOSTATO COMERCIAL/EXPOSITOR</span>
+            <span class="subgrupo-tag">TERMOSTATO DUPLEX CONTINENTAL</span>
+            <span class="subgrupo-tag">TERMOSTATO FREEZER</span>
+            <span class="subgrupo-tag">TERMOSTATO FRIGOBAR</span>
+            <span class="subgrupo-tag">TERMOSTATO REFRIGERADOR 1PORTA</span>
+            <span class="subgrupo-tag">TERMOSTATO REFRIGERADOR DUPLEX</span>
+            <span class="subgrupo-tag">TERMOSTATO UNIVERSAL</span>
+            <span class="subgrupo-tag">TERMÔMETRO DIGITAL</span>
+            <span class="subgrupo-tag">TUBO CAPILAR DE COBRE</span>
+            <span class="subgrupo-tag">VÁLVULA SHARADER</span>
+          </div>
+        </div>
+      </details>
+
+      <!-- 5. Linha: FERRAMENTAS -->
+      <details class="linha-item">
+        <summary class="linha-summary">FERRAMENTAS</summary>
+        <div class="categoria-list">
+          <div class="subgrupo-list">
+            <span class="subgrupo-tag">ADAPTADOR MULTIPORTAS</span>
+            <span class="subgrupo-tag">ALARGADOR DE TUBO</span>
+            <span class="subgrupo-tag">ALICATE AMPERIMETRO</span>
+            <span class="subgrupo-tag">ALICATE CAPILAR</span>
+            <span class="subgrupo-tag">CAPACIMETRO</span>
+            <span class="subgrupo-tag">CHAVE CATRACA</span>
+            <span class="subgrupo-tag">CORTADOR DE TUBO</span>
+            <span class="subgrupo-tag">CURVADOR DE TUBO</span>
+            <span class="subgrupo-tag">ENGATE MANIFOLD</span>
+            <span class="subgrupo-tag">ESCARIADOR DE TUBO</span>
+            <span class="subgrupo-tag">FLANGEADOR DE TUBO</span>
+            <span class="subgrupo-tag">MANGUEIRA MANIFOLD</span>
+            <span class="subgrupo-tag">MANIFOLD</span>
+            <span class="subgrupo-tag">MANIFOLD 1 VIA</span>
+            <span class="subgrupo-tag">MANTA ANTICHAMA</span>
+            <span class="subgrupo-tag">MANÔMETRO</span>
+            <span class="subgrupo-tag">MAÇARICOS</span>
+            <span class="subgrupo-tag">MOLA CURVADORA</span>
+            <span class="subgrupo-tag">PENTE DE ALETAS</span>
+            <span class="subgrupo-tag">TERMOHIGRÔMETRO</span>
+            <span class="subgrupo-tag">VÁLVULA ACIONADORA</span>
+            <span class="subgrupo-tag">VÁLVULA OTIMIZADORA</span>
+            <span class="subgrupo-tag">VÁLVULA REGISTRO</span>
+            <span class="subgrupo-tag">VÁLVULA REGISTRO BOLA</span>
+          </div>
+        </div>
+      </details>
+
+      <!-- 6. Linha: AQUECIMENTO -->
+      <details class="linha-item">
+        <summary class="linha-summary">AQUECIMENTO</summary>
+        <div class="categoria-list">
+          <div class="subgrupo-list">
+            <span class="subgrupo-tag">CAPACITOR MICRO-ONDAS</span>
+            <span class="subgrupo-tag">MAGNETRON</span>
+            <span class="subgrupo-tag">TEMPORIZADOR FORNO</span>
+            <span class="subgrupo-tag">TERMOSTATO 16A</span>
+            <span class="subgrupo-tag">TERMOSTATO 20A</span>
+            <span class="subgrupo-tag">TERMOSTATO 30A</span>
+            <span class="subgrupo-tag">TERMOSTATO 30A ALTA PERF.</span>
+          </div>
+        </div>
+      </details>
+
+    </div>
+
+    <!-- Rodapé: Redes Sociais no final -->
+    <footer class="social-footer">
+      <a href="https://www.instagram.com/agetherm__/" target="_blank" rel="noopener" aria-label="Instagram">
+        <img src="icone-instagram.png" alt="Instagram" class="social-icon">
+      </a>
+
+      <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <img src="icone-whatsapp.png" alt="WhatsApp" class="social-icon">
+      </a>
+
+      <a href="https://www.linkedin.com/company/agetherm" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <img src="icone-linkedin.png" alt="LinkedIn" class="social-icon">
+      </a>
+
+      <a href="https://www.youtube.com/@agetherm" target="_blank" rel="noopener" aria-label="YouTube">
+        <img src="icone-youtube.png" alt="YouTube" class="social-icon">
+      </a>
+    </footer>
+
+  </main>
+
+</body>
+</html>
