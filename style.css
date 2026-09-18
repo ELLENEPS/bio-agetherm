@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #f8fafc;
+  --bg-color: #ffffff; /* Fundo inteiramente branco */
   --card-bg: #ffffff;
   --text-primary: #002B5B;
   --text-muted: #64748b;
@@ -32,7 +32,7 @@ body {
   align-items: center;
 }
 
-/* Cabeçalho Corporativo com Barra de Destaques Discreta */
+/* Cabeçalho Corporativo com Logo Maior e Slogan mais próximo */
 .header {
   width: 100%;
   text-align: center;
@@ -40,8 +40,8 @@ body {
 }
 
 .logo-container {
-  width: 180px;
-  margin: 0 auto 10px auto;
+  width: 250px;
+  margin: 0 auto 4px auto; /* Mantém a logo próxima do slogan */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,7 +91,7 @@ body {
 
 @media (max-width: 520px) {
   .dot-separator {
-    display: none; /* Em telas muito pequenas as pílulas quebram linha de forma limpa */
+    display: none; 
   }
 }
 
@@ -175,15 +175,25 @@ body {
   border-radius: 50%;
 }
 
-/* Títulos de Seção padronizados */
+/* Títulos de Seção com fonte maior e o Triângulo Invertido decorativo */
 .section-title {
-  font-size: 11px;
+  font-size: 12px; /* Fonte maior conforme solicitado */
   font-weight: 700;
   color: var(--accent-orange);
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  margin: 28px 0 12px 4px;
+  margin: 32px 0 12px 4px;
   width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Espaço entre o triângulo e o texto */
+}
+
+/* Adiciona o triângulo invertido automaticamente antes do texto */
+.section-title::before {
+  content: '▼';
+  font-size: 10px; /* Tamanho proporcional ao texto */
+  color: var(--accent-orange);
 }
 
 /* Seção de Destaques (Grid Responsivo) */
@@ -346,7 +356,7 @@ details.linha-item[open] > summary.linha-summary::after {
 .categoria-list {
   padding: 10px 12px 14px 12px;
   border-top: 1px solid #f1f5f9;
-  background: #fafbfc;
+  background: #ffffff; /* Fundo branco nas categorias */
 }
 
 .subgrupo-list {
@@ -418,7 +428,7 @@ details.linha-item[open] > summary.linha-summary::after {
   font-size: 13px;
   font-family: 'Inter', sans-serif;
   color: var(--text-primary);
-  background-color: var(--bg-color);
+  background-color: #f8fafc;
   border: 1px solid var(--border-color);
   border-radius: 8px;
   outline: none;
